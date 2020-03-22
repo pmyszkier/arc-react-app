@@ -91,3 +91,20 @@ PRs are very appreciated. For bugs/features consider creating an issue before se
 ## License
 
 MIT © [Diego Haz](https://github.com/diegohaz)
+
+
+
+## WORKING WITH APP:
+
+# Adding new item(link) to menu: 
+\src\components\molecules\PrimaryNavigation\index.js
+
+# Adding routing: 
+\src\components\App.js
+
+# Adding new pages to: 
+\src\pages
+
+
+
+

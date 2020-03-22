@@ -26,6 +26,12 @@ const PrimaryNavigation = (props) => {
     <Nav {...props}>
       <li><Link to="/" exact activeClassName="active">Home</Link></li>
       <li><Link to="/sample-page" activeClassName="active">Sample page</Link></li>
+
+      <li><Link to="/first-page" activeClassName="active">PM First page</Link></li>
+      <li><Link to="/second-page" activeClassName="active">PM Second page</Link></li>
+      <li><Link to="/third-page" activeClassName="active">PM Third page</Link></li>
+      <li><Link to="/next-page" activeClassName="active">PM Next page</Link></li>
+
     </Nav>
   )
 }

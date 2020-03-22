@@ -162,6 +162,22 @@ b) upgrade node, npm and git:
 - git: run `git update`
 - node: in Windows download and install again
 
+c) WARNING in asset size limit: The following asset(s) exceed the recommended size limi
+t (244 KiB)
+- zmienić w webpack.config.js:
+zamiast:
+  const config = mergeWith(
+    {},
+dać:
+  const config = mergeWith(
+    {
+      performance: {
+        hints: false
+      }
+    },
+
+
+
 ## Dodatkowe moduły do zainstalowania po wprowadzeniu Atomic:
 `yarn add react-router-dom`
 `yarn add styled-components`

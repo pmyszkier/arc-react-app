@@ -104,7 +104,11 @@ const wpConfig = {
 }
 
 const config = mergeWith(
-  {},
+  {
+    performance: {
+      hints: false
+    }
+  },
   wpConfig.base,
   wpConfig[process.env.NODE_ENV],
   customizer,
