@@ -2,7 +2,10 @@
   "name": "arc",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pmyszkier.github.io/arc-react-app/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
     "start": "npm run dev",
     "env:dev": "cross-env NODE_ENV=development",
     "env:prod": "cross-env NODE_ENV=production",
